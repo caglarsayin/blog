@@ -1,0 +1,34 @@
+# General Jekyll Config
+pygments: true
+url: http://caglarsay.in/
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore]
+
+# Theme customization - please change from the defaults!
+theme:
+  # Color for top bar, links, etc
+  highlight_color: '#3498db'
+
+  # Profile links on the left sidebar, leave blank to ignore
+  social:
+    github: caglarsayin
+    #bitbucket: philipj
+    #hacker_news: swanson
+    #stackexchange: 348619
+    #stackoverflow: 348619
+    twitter: caglarsayin
+    #facebook: zuck
+    #tumblr: animalygifs
+    linkedin: caglarsayin
+    gplus: 115769740138097262397
+
+  # "Hi, I'm _______"
+  name: Caglar SAYIN
+  email: me@caglarsay.in
+  tagline: "more is less as much as less is more"
+
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key: UA-xxxx-x
+
+  # Toggle "Postings are my own" disclaimer in footer
+  show_disclaimer: true
