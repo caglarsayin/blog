@@ -1,14 +1,28 @@
 Follow me:
 <div id="stalker">
-  {% if site.theme.social.github %}
-  <a title="{{ site.theme.social.github }} on Github" href="https://github.com/{{ site.theme.social.github }}">
-    <i class="fa fa-github-square"></i>
+
+  {% if site.theme.social.twitter %}
+  <a title="{{ site.theme.social.twitter }} on Twitter" href="https://twitter.com/{{ site.theme.social.twitter }}">
+    <i class="fa fa-twitter-square"></i>
+  </a>
+  {% endif %}
+
+  
+  {% if site.theme.social.gplus %}
+  <a title="{{ site.theme.name }} on Google Plus" href="https://plus.google.com/{{ site.theme.social.gplus }}">
+    <i class="fa fa-google-plus-square"></i>
   </a>
   {% endif %}
 
   {% if site.theme.social.bitbucket %}
   <a title="{{ site.theme.social.bitbucket }} on Bitbucket" href="https://bitbucket.com/{{ site.theme.social.bitbucket }}/">
     <i class="fa fa-bitbucket-square"></i>
+  </a>
+  {% endif %}
+
+  {% if site.theme.social.github %}
+  <a title="{{ site.theme.social.github }} on Github" href="https://github.com/{{ site.theme.social.github }}">
+    <i class="fa fa-github-square"></i>
   </a>
   {% endif %}
 
@@ -33,12 +47,6 @@ Follow me:
   </a>
   {% endif %}
 
-  {% if site.theme.social.twitter %}
-  <a title="{{ site.theme.social.twitter }} on Twitter" href="https://twitter.com/{{ site.theme.social.twitter }}">
-    <i class="fa fa-twitter-square"></i>
-  </a>
-  {% endif %}
-
   {% if site.theme.social.facebook %}
   <a title="{{ site.theme.name }} on Facebook" href="https://facebook.com/{{ site.theme.social.facebook }}">
     <i class="fa fa-facebook-square"></i>
@@ -57,11 +65,6 @@ Follow me:
   </a>
   {% endif %}
 
-  {% if site.theme.social.gplus %}
-  <a title="{{ site.theme.name }} on Google Plus" href="https://plus.google.com/{{ site.theme.social.gplus }}">
-    <i class="fa fa-google-plus-square"></i>
-  </a>
-  {% endif %}
 
   <a title="RSS feed" id="rss" href="/atom.xml">
     <i class="fa fa-rss-square"></i>
