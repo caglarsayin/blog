@@ -1,6 +1,6 @@
-PY=python3
+PY=python2
 PELICAN=pelican
-PELICANOPTS=
+PELICANOPTS=-t pure-single
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
@@ -104,5 +104,8 @@ cf_upload: publish
 github: publish
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
+
+appengine: publish
+	python2 ../google_appengine/appcfg.py update ./appengine_blog
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github

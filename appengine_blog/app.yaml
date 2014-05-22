@@ -1,0 +1,52 @@
+application: caglar-blog
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /author
+  static_dir: blog/author
+
+- url: /category
+  static_dir: blog/category
+
+- url: /feeds
+  static_dir: blog/feeds
+
+- url: /pages
+  static_dir: blog/pages
+
+- url: /theme/css
+  static_dir: blog/theme/css
+
+- url: /theme/image
+  static_dir: blog/theme/images
+
+- url: /storage/
+  script: gcs.app
+
+- url: /
+  static_files: blog/index.html
+  upload: blog/index.html
+
+- url: /
+  static_dir: blog
+
+
+
+
+
+
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
