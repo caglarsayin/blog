@@ -36,6 +36,10 @@ handlers:
   static_files: blog/index.html
   upload: blog/index.html
 
+- url: /favicon.ico
+  static_files: favicon.ico
+  upload: favicon.ico
+
 - url: /
   static_dir: blog
 

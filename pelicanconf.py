@@ -36,7 +36,7 @@ SOCIAL = (
 
 #Theme special
 COVER_IMG_URL = '/theme/images/cover.jpg'
-PROFILE_IMAGE_URL = '/theme/images/profile.png'
+PROFILE_IMAGE_URL = '/theme/images/profile.jpg'
 TAGLINE = 'Homo-Sapiens, Computer Engineer, Security Researcher, Sailor, a Bike Owner and Traveler'
 #DISQUS_SITENAME - Set this to enable disqus comments in articles.
 GOOGLE_ANALYTICS = 'UA-51280646-1'
