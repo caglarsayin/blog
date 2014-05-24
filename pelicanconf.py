@@ -39,7 +39,7 @@ COVER_IMG_URL = '/theme/images/cover.jpg'
 PROFILE_IMAGE_URL = '/theme/images/profile.png'
 TAGLINE = 'Homo-Sapiens, Computer Engineer, Security Researcher, Sailor, a Bike Owner and Traveler'
 #DISQUS_SITENAME - Set this to enable disqus comments in articles.
-#GOOGLE_ANALYTICS - Set the Google Analytics code (eg. "UA-000000-00")
+GOOGLE_ANALYTICS = 'UA-51280646-1'
 
 DEFAULT_PAGINATION = 10
 

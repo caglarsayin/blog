@@ -4,7 +4,7 @@ PELICANOPTS=-t pure-single
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
-OUTPUTDIR=$(BASEDIR)/output
+OUTPUTDIR=$(BASEDIR)/appengine_blog/blog
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
@@ -106,6 +106,6 @@ github: publish
 	git push origin gh-pages
 
 appengine: publish
-	python2 ../google_appengine/appcfg.py update ./appengine_blog
+	appcfg.py --oauth2 update ./appengine_blog
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github

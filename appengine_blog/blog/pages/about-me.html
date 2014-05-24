@@ -82,9 +82,8 @@
         </div>
 <footer class="footer">
     <p>&copy; Çağlar Sayın &ndash;
-        Built on Google Appengine with PureCSS.
-        <br>
-        Don't Bother, You can't.
+        Built with <a href="https://github.com/PurePelicanTheme/pure-single">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
     </p>
 </footer>    </div>
     </div>
@@ -111,6 +110,16 @@
         $('body').on('click', 'a[href="#"]', function(event) {
             event.preventDefault();
         });
+    </script>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-51280646-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
     </script>
 
 </body>

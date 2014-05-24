@@ -7,13 +7,20 @@
 
         <link rel="alternate"  href="http://blog.caglarsay.in/feeds/all.atom.xml" type="application/atom+xml" title="Çağlar Sayın Full Atom Feed"/>
 
-        <title>Çağlar Sayın author // Çağlar Sayın // Homo-Sapiens, Computer Engineer, Security Researcher, Sailor, a Bike Owner and Traveler</title>
+        <title>The hello article // Çağlar Sayın // Homo-Sapiens, Computer Engineer, Security Researcher, Sailor, a Bike Owner and Traveler</title>
 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://blog.caglarsay.in/theme/css/pure.css">
+    <link rel="stylesheet" href="http://blog.caglarsay.in/theme/css/pygments.css">
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
 </head>
 
 <body>
@@ -29,7 +36,7 @@
 
                                 <p  class="links"><a href="http://blog.caglarsay.in/pages/about-me.html">About Me</a></p>
 
-                                <p  class="links"><a href="http://blog.caglarsay.in/category/life.html">Life</a></p>
+                                <p  style="font-weight: bold;" class="links"><a href="http://blog.caglarsay.in/category/life.html">Life</a></p>
                                 <p  class="links"><a href="http://blog.caglarsay.in/category/professional.html">Professional</a></p>
                                 <p  class="links"><a href="http://blog.caglarsay.in/category/projects.html">Projects</a></p>
 
@@ -54,48 +61,21 @@
         </div>
     <div class="pure-u">
         <div class="content">
-            <!-- A wrapper for all the blog posts -->
-            <div class="posts">
-                <h1 class="content-subhead">
-Posts by 'Çağlar Sayın'                </h1>
-                    <section class="post">
-                        <header class="post-header">
-                            <h3><a class="post-title" href="http://blog.caglarsay.in/the-hello-article.html">The hello article</a></h3>
-                            <p class="post-meta"><p>See below intra-site link examples in Markdown format.</p></p>
-                            <p class="post-meta">
-                                in <a href="http://blog.caglarsay.in/category/life.html">Life</a> &middot; Sat 01 December 2012
-                            </p>
-                        </header>
-                    </section>
-                    <section class="post">
-                        <header class="post-header">
-                            <h3><a class="post-title" href="http://blog.caglarsay.in/the-heloo-article.html">The heloo article</a></h3>
-                            <p class="post-meta"><p>See below intra-site link examples in Markdown format.</p></p>
-                            <p class="post-meta">
-                                in <a href="http://blog.caglarsay.in/category/projects.html">Projects</a> &middot; Sat 01 December 2012
-                            </p>
-                        </header>
-                    </section>
-                    <section class="post">
-                        <header class="post-header">
-                            <h3><a class="post-title" href="http://blog.caglarsay.in/the-second-article.html">The second article</a></h3>
-                            <p class="post-meta"><p>See below intra-site link examples in Markdown format.</p></p>
-                            <p class="post-meta">
-                                in <a href="http://blog.caglarsay.in/category/professional.html">Professional</a> &middot; Sat 01 December 2012
-                            </p>
-                        </header>
-                    </section>
-<div class="pagination-wrapper content-subhead">
-    <div class="pagination">
-        <div class="pagination-left">
-                &nbsp;
-        </div>
-        <span>Page 1 / 1</span>
-        <div class="pagination-right">
-        </div>
-    </div>
-</div>            </div>
-        </div>
+            <section class="post">
+                <header class="post-header">
+                    <h1>The hello article</h1>
+                        <p class="post-meta">
+                            // under                         </p>
+                </header>
+            </section>
+            <p>See below intra-site link examples in Markdown format.</p>
+            <a href="#" class="go-top">Go Top</a>
+<footer class="footer">
+    <p>&copy; Çağlar Sayın &ndash;
+        Built with <a href="https://github.com/PurePelicanTheme/pure-single">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
     </div>
     </div>
     <script>
@@ -121,6 +101,16 @@ Posts by 'Çağlar Sayın'                </h1>
         $('body').on('click', 'a[href="#"]', function(event) {
             event.preventDefault();
         });
+    </script>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-51280646-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
     </script>
 
 </body>
