@@ -1,4 +1,6 @@
-Title: The second article
-Date: 2012-12-01 10:02
+Title: About the Society, Sea and Security 
+Date: 2014-05-30 02:13
+Tags: Life, Security, Sea
+Summary: What is the things can blend them in bowl? Why were all sailors believe in something at all, or totally vice versa? What does the holly water(salty one) makes people to think weird?
 
-See below intra-site link examples in Markdown format.
+Sooner or later...
